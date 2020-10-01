@@ -1,0 +1,252 @@
+@import url("//hello.myfonts.net/count/3c57d9");
+
+@font-face {
+    font-family: 'CiutadellaSlabDEMO-Rg';
+    src: url('./CiutadellaSlabDEMO-Rg/font.woff2') format('woff2'), url('./CiutadellaSlabDEMO-Rg/font.woff') format('woff');
+}
+
+@font-face {
+    font-family: KGSorryNotSorry;
+    src: url(./kg_sorry_not_sorry/KGSorryNotSorry.ttf);
+}
+
+@font-face {
+    font-family: riesling;
+    src: url(./riesling.ttf)
+}
+
+@font-face {
+    font-family: gibson;
+    src: url(./gibson-cufonfonts-webfont/GibsonRegular.woff)
+}
+
+@font-face {
+    font-family: centralle-sans;
+    src: url(./Centrale-Sans/Centrale-Sans-Regular.otf)
+}
+
+@font-face {
+    font-family: infinity;
+    src: url(Infinity_Font_Family_Fontmirror/Infinity-400.ttf)
+}
+
+@font-face {
+    font-family: garden-gnome;
+    src: url(dk-garden-gnome/DK-Garden-Gnome.otf)
+}
+
+@font-face {
+    font-family: campton;
+    src: url(campton/Campton-BoldDEMO.otf)
+}
+
+@font-face {
+    font-family: jaapokki;
+    src: url(Jaapokki-font-package-1.0/Regular/Jaapokki-Regular.otf)
+}
+
+@font-face {
+    font-family: nexa;
+    src: url(Nexa-Font/NexaRegular.otf)
+}
+
+@font-face {
+    font-family: trajan;
+    src: url(Trajan-Pro-Regular/Trajan-Pro-Regular.ttf)
+}
+
+@font-face {
+    font-family: futura;
+    src: url(NevisBold-KGwl.ttf)
+}
+
+@font-face {
+    font-family: code;
+    src: url(code/CODE-Light.otf)
+}
+
+.card {
+    border-radius: 0 !important;
+}
+
+.card-1 {
+    border-color: black;
+    box-shadow: 0px 0px 10px 2px darkgray;
+    font-family: helvetica !important;
+}
+
+.card-2 {
+    background-color: black !important;
+    color: white;
+    box-shadow: 0px 0px 10px 2px darkgray;
+    font-family: KGSorryNotSorry;
+}
+
+.card-3 {
+    background-color: black;
+    border-color: black !important;
+    box-shadow: 0px 0px 10px 2px white;
+    font-family: gibson !important;
+}
+
+.card-4 {
+    background-color: black !important;
+    color: white;
+    box-shadow: 0px 0px 10px 2px white;
+    font-family: riesling;
+}
+
+.card-5 {
+    background-color: rgb(212, 210, 44) !important;
+    border: 2px black !important;
+    box-shadow: 0px 0px 10px 2px white;
+    font-family: 'CiutadellaSlabDEMO-Rg';
+}
+
+.card-6 {
+    background-color: rgb(19, 71, 19) !important;
+    box-shadow: 0px 0px 10px 2px white;
+    color: white;
+    font-family: centralle-sans;
+}
+
+.card-7 {
+    border-color: black;
+    box-shadow: 0px 0px 10px 2px black;
+    font-family: infinity !important;
+}
+
+.card-8 {
+    background-color: black !important;
+    color: navajowhite;
+    box-shadow: 0px 0px 10px 2px white;
+    font-family: garden-gnome !important;
+}
+
+.card-9 {
+    background-color: rgb(105, 15, 105) !important;
+    color: yellow;
+    box-shadow: 0px 0px 10px 2px yellow;
+    font-family: campton !important;
+}
+
+.card-10 {
+    background-color: #c50d66 !important;
+    color: #40a8c4;
+    text-shadow: 2px 1px 0px #88dfbb;
+    box-shadow: 0px 0px 10px 2px #88dfbb;
+    font-family: jaapokki !important;
+}
+
+.card-11 {
+    background-color:black !important;
+    color: #FFDDE7;
+    box-shadow: 0px 0px 10px 2px #d4af37;
+    font-family: nexa !important;
+    border: 4px solid white !important;
+}
+
+.card-11 h4 {
+    color: #d4af37;
+}
+
+.card-11 p {
+    color: white;
+}
+
+.card-12 {
+    background-color:darkgreen !important;
+    color: lightblue;
+    box-shadow: 0px 0px 10px 2px yellow;
+    font-family: trajan !important;
+    border: 4px solid magenta !important;
+    outline: 2px solid red !important;
+}
+
+.card-12 h4 {
+    color: red;
+}
+
+.card-12 p {
+    color: yellow;
+}
+
+.card-13 {
+    color: white;
+    box-shadow: 0px 0px 10px 2px darkgray;
+    font-family: futura !important;
+    border: 2px solid darkgray !important;
+    outline: 2px solid black !important;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+
+}
+
+.card-14 {
+    background-color: black !important;
+    color: black;
+    box-shadow: 0px 0px 10px 2px darkgray;
+    font-family: nevis;
+    border: 2px solid darkgray !important;
+    outline: 2px solid black !important;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: white;
+
+}
+
+.card-15 {
+    color: black;
+    box-shadow: inset 0px 0px 10px 2px darkgray;
+    font-family: code;
+    border: 2px solid darkgray !important;
+    outline: 2px solid black !important;
+}
+
+.card-16 {
+    background-color: black !important;
+    color: darkgray;
+    box-shadow: inset 0px 0px 10px 2px white;
+    font-family: code;
+    border: 2px solid darkgray !important;
+    outline: 2px solid black !important;
+}
+
+.color-2 {
+    color: #88dfbb;
+    text-shadow: 2px 1px 0px #40a8c4;
+}
+
+.color-3 {
+    color: #f7aa00;
+    text-shadow: 2px 1px 10px #f07810;
+
+}
+
+.color-4 {
+    color: #f07810 !important;
+    text-shadow: 2px 1px 10px #f7aa00;
+
+}
+
+.container-2 {
+    background-color: #07073a;
+}
+
+.container-3 {
+    background-color: black;
+}
+
+.container-4 {
+    background: url(./gray-scale.png);
+}
+.container-5 {
+    background: url(./jazz-club-brick-background.png);
+}
+
+.container-6 {
+    background: url(./desk-computer-background.png);
+    background-size: cover;
+}
+.container-8 {
+    background: darkgray;
+}
